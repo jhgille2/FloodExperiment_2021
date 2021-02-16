@@ -5,21 +5,32 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(targets)
+library(gt)
 ```
 
 ## Introduction
 
-The goal of this experiment is to test if the **N11-325** soybean genotype possesses flood tolerance. This will be a greenhouse experiment and the general strategy will be to compare the N11-325 genotype to other genotypes which are already known to have or lack flood tolerance to determine if this new genotype possesses, or lacks flood tolerance traits.
+The goal of this experiment is to test if the **N11-325** soybean genotype possesses flood tolerance. This will be a greenhouse experiment and the general strategy will be to compare the **N11-325** genotype to other genotypes which are already known to have or lack flood tolerance to determine if this new genotype possesses, or lacks flood tolerance traits.
 
 ## Experimental design
 
-Five genotypes will be grown in in 8 replications each in both flodded and non-flooded conditions. The genotypes are:
+Five genotypes will be grown in flodded and non-flooded conditions in 8 replications within each environment. The genotypes are:
 
   - N11-352
   - Dunphy
   - Roy
   - Flood-Tolerant (From Tommy/Ben/Paul)
   - Flood-Susceptible (From Tommy/Ben/Paul)
+
+Three seeds from each genotype will be planted for each replication x treatment combination. Thin these plants to one plant per pot after emergence. After plants have been thinned, transfer the pots to their treatment tanks as per the field book. Be sure to follow the plot order when putting them into the tanks as this is randomized and it will make it easier to find a plot if a label floats away or something like that.
+
+Because there are 5 genotypes, and 8 reps of each genotype per treatment, each treatment has 40 plots (pots) in total. Because of this, 
+
+```{r}
+gt(head(tar_read(Fieldbook)$book))
+
+```
 
 Flooded and non-flooded environments will be made using 4 large tubs with two tubs flooded, and two tubs non-flooded as each tub can hold 20 pots. 
 

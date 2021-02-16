@@ -27,7 +27,7 @@ Three seeds from each genotype will be planted for each replication x treatment 
 
 Because there are 5 genotypes, and 8 reps of each genotype per treatment, each treatment has 40 plots (pots) in total. Because of this, 
 
-```{r}
+```{r, echo = FALSE}
 gt(head(tar_read(Fieldbook)$book))
 
 ```

@@ -31,16 +31,12 @@ it easier to find a plot if a label floats away or something like that.
 Because there are 5 genotypes, and 8 reps of each genotype per
 treatment, each treatment has 40 plots (pots) in total. Because of this,
 
-``` r
-gt(head(tar_read(Fieldbook)$book))
-```
-
 <!--html_preserve-->
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#jtbpntrkbi .gt_table {
+#xpokjclupk .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -65,7 +61,7 @@ gt(head(tar_read(Fieldbook)$book))
   border-left-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_heading {
+#xpokjclupk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -77,7 +73,7 @@ gt(head(tar_read(Fieldbook)$book))
   border-right-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_title {
+#xpokjclupk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -87,7 +83,7 @@ gt(head(tar_read(Fieldbook)$book))
   border-bottom-width: 0;
 }
 
-#jtbpntrkbi .gt_subtitle {
+#xpokjclupk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -97,13 +93,13 @@ gt(head(tar_read(Fieldbook)$book))
   border-top-width: 0;
 }
 
-#jtbpntrkbi .gt_bottom_border {
+#xpokjclupk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_col_headings {
+#xpokjclupk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -118,7 +114,7 @@ gt(head(tar_read(Fieldbook)$book))
   border-right-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_col_heading {
+#xpokjclupk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -138,7 +134,7 @@ gt(head(tar_read(Fieldbook)$book))
   overflow-x: hidden;
 }
 
-#jtbpntrkbi .gt_column_spanner_outer {
+#xpokjclupk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -150,15 +146,15 @@ gt(head(tar_read(Fieldbook)$book))
   padding-right: 4px;
 }
 
-#jtbpntrkbi .gt_column_spanner_outer:first-child {
+#xpokjclupk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#jtbpntrkbi .gt_column_spanner_outer:last-child {
+#xpokjclupk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#jtbpntrkbi .gt_column_spanner {
+#xpokjclupk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -170,7 +166,7 @@ gt(head(tar_read(Fieldbook)$book))
   width: 100%;
 }
 
-#jtbpntrkbi .gt_group_heading {
+#xpokjclupk .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -192,7 +188,7 @@ gt(head(tar_read(Fieldbook)$book))
   vertical-align: middle;
 }
 
-#jtbpntrkbi .gt_empty_group_heading {
+#xpokjclupk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -207,15 +203,15 @@ gt(head(tar_read(Fieldbook)$book))
   vertical-align: middle;
 }
 
-#jtbpntrkbi .gt_from_md > :first-child {
+#xpokjclupk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#jtbpntrkbi .gt_from_md > :last-child {
+#xpokjclupk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#jtbpntrkbi .gt_row {
+#xpokjclupk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -234,7 +230,7 @@ gt(head(tar_read(Fieldbook)$book))
   overflow-x: hidden;
 }
 
-#jtbpntrkbi .gt_stub {
+#xpokjclupk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -246,7 +242,7 @@ gt(head(tar_read(Fieldbook)$book))
   padding-left: 12px;
 }
 
-#jtbpntrkbi .gt_summary_row {
+#xpokjclupk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -256,7 +252,7 @@ gt(head(tar_read(Fieldbook)$book))
   padding-right: 5px;
 }
 
-#jtbpntrkbi .gt_first_summary_row {
+#xpokjclupk .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -266,7 +262,7 @@ gt(head(tar_read(Fieldbook)$book))
   border-top-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_grand_summary_row {
+#xpokjclupk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -276,7 +272,7 @@ gt(head(tar_read(Fieldbook)$book))
   padding-right: 5px;
 }
 
-#jtbpntrkbi .gt_first_grand_summary_row {
+#xpokjclupk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -286,11 +282,11 @@ gt(head(tar_read(Fieldbook)$book))
   border-top-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_striped {
+#xpokjclupk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#jtbpntrkbi .gt_table_body {
+#xpokjclupk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -299,7 +295,7 @@ gt(head(tar_read(Fieldbook)$book))
   border-bottom-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_footnotes {
+#xpokjclupk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -313,13 +309,13 @@ gt(head(tar_read(Fieldbook)$book))
   border-right-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_footnote {
+#xpokjclupk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#jtbpntrkbi .gt_sourcenotes {
+#xpokjclupk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -333,47 +329,47 @@ gt(head(tar_read(Fieldbook)$book))
   border-right-color: #D3D3D3;
 }
 
-#jtbpntrkbi .gt_sourcenote {
+#xpokjclupk .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#jtbpntrkbi .gt_left {
+#xpokjclupk .gt_left {
   text-align: left;
 }
 
-#jtbpntrkbi .gt_center {
+#xpokjclupk .gt_center {
   text-align: center;
 }
 
-#jtbpntrkbi .gt_right {
+#xpokjclupk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#jtbpntrkbi .gt_font_normal {
+#xpokjclupk .gt_font_normal {
   font-weight: normal;
 }
 
-#jtbpntrkbi .gt_font_bold {
+#xpokjclupk .gt_font_bold {
   font-weight: bold;
 }
 
-#jtbpntrkbi .gt_font_italic {
+#xpokjclupk .gt_font_italic {
   font-style: italic;
 }
 
-#jtbpntrkbi .gt_super {
+#xpokjclupk .gt_super {
   font-size: 65%;
 }
 
-#jtbpntrkbi .gt_footnote_marks {
+#xpokjclupk .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="jtbpntrkbi"
+<div id="xpokjclupk"
 style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">

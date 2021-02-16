@@ -29,14 +29,16 @@ when putting them into the tanks as this is randomized and it will make
 it easier to find a plot if a label floats away or something like that.
 
 Because there are 5 genotypes, and 8 reps of each genotype per
-treatment, each treatment has 40 plots (pots) in total. Because of this,
+treatment, each treatment has 40 plots (pots) in total. Pots are
+numbered 1-40 for each treatment. See the table below to see what this
+looks like for the first 5 entries for each condition.
 
 <!--html_preserve-->
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#xpokjclupk .gt_table {
+#rfnexonhxh .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -61,7 +63,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-left-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_heading {
+#rfnexonhxh .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -73,7 +75,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-right-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_title {
+#rfnexonhxh .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -83,7 +85,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-bottom-width: 0;
 }
 
-#xpokjclupk .gt_subtitle {
+#rfnexonhxh .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -93,13 +95,13 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-top-width: 0;
 }
 
-#xpokjclupk .gt_bottom_border {
+#rfnexonhxh .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_col_headings {
+#rfnexonhxh .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -114,7 +116,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-right-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_col_heading {
+#rfnexonhxh .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -134,7 +136,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   overflow-x: hidden;
 }
 
-#xpokjclupk .gt_column_spanner_outer {
+#rfnexonhxh .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -146,15 +148,15 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   padding-right: 4px;
 }
 
-#xpokjclupk .gt_column_spanner_outer:first-child {
+#rfnexonhxh .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#xpokjclupk .gt_column_spanner_outer:last-child {
+#rfnexonhxh .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#xpokjclupk .gt_column_spanner {
+#rfnexonhxh .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -166,7 +168,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   width: 100%;
 }
 
-#xpokjclupk .gt_group_heading {
+#rfnexonhxh .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -188,7 +190,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   vertical-align: middle;
 }
 
-#xpokjclupk .gt_empty_group_heading {
+#rfnexonhxh .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -203,15 +205,15 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   vertical-align: middle;
 }
 
-#xpokjclupk .gt_from_md > :first-child {
+#rfnexonhxh .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xpokjclupk .gt_from_md > :last-child {
+#rfnexonhxh .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xpokjclupk .gt_row {
+#rfnexonhxh .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -230,7 +232,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   overflow-x: hidden;
 }
 
-#xpokjclupk .gt_stub {
+#rfnexonhxh .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -242,7 +244,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   padding-left: 12px;
 }
 
-#xpokjclupk .gt_summary_row {
+#rfnexonhxh .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -252,7 +254,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   padding-right: 5px;
 }
 
-#xpokjclupk .gt_first_summary_row {
+#rfnexonhxh .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -262,7 +264,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-top-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_grand_summary_row {
+#rfnexonhxh .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -272,7 +274,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   padding-right: 5px;
 }
 
-#xpokjclupk .gt_first_grand_summary_row {
+#rfnexonhxh .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -282,11 +284,11 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-top-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_striped {
+#rfnexonhxh .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#xpokjclupk .gt_table_body {
+#rfnexonhxh .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -295,7 +297,7 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-bottom-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_footnotes {
+#rfnexonhxh .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -309,13 +311,13 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-right-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_footnote {
+#rfnexonhxh .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#xpokjclupk .gt_sourcenotes {
+#rfnexonhxh .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -329,47 +331,47 @@ treatment, each treatment has 40 plots (pots) in total. Because of this,
   border-right-color: #D3D3D3;
 }
 
-#xpokjclupk .gt_sourcenote {
+#rfnexonhxh .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#xpokjclupk .gt_left {
+#rfnexonhxh .gt_left {
   text-align: left;
 }
 
-#xpokjclupk .gt_center {
+#rfnexonhxh .gt_center {
   text-align: center;
 }
 
-#xpokjclupk .gt_right {
+#rfnexonhxh .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xpokjclupk .gt_font_normal {
+#rfnexonhxh .gt_font_normal {
   font-weight: normal;
 }
 
-#xpokjclupk .gt_font_bold {
+#rfnexonhxh .gt_font_bold {
   font-weight: bold;
 }
 
-#xpokjclupk .gt_font_italic {
+#rfnexonhxh .gt_font_italic {
   font-style: italic;
 }
 
-#xpokjclupk .gt_super {
+#rfnexonhxh .gt_super {
   font-size: 65%;
 }
 
-#xpokjclupk .gt_footnote_marks {
+#rfnexonhxh .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
 
-<div id="xpokjclupk"
+<div id="rfnexonhxh"
 style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 
 <table class="gt_table">
@@ -413,7 +415,7 @@ Shoot\_biomass\_dry
 <tbody class="gt_table_body">
 <tr>
 <td class="gt_row gt_center">
-2
+1
 </td>
 <td class="gt_row gt_center">
 1
@@ -448,7 +450,7 @@ NA
 </tr>
 <tr>
 <td class="gt_row gt_center">
-3
+2
 </td>
 <td class="gt_row gt_center">
 1
@@ -483,7 +485,7 @@ NA
 </tr>
 <tr>
 <td class="gt_row gt_center">
-5
+3
 </td>
 <td class="gt_row gt_center">
 1
@@ -518,7 +520,7 @@ NA
 </tr>
 <tr>
 <td class="gt_row gt_center">
-6
+4
 </td>
 <td class="gt_row gt_center">
 1
@@ -553,7 +555,7 @@ NA
 </tr>
 <tr>
 <td class="gt_row gt_center">
-8
+5
 </td>
 <td class="gt_row gt_center">
 1
@@ -588,16 +590,156 @@ NA
 </tr>
 <tr>
 <td class="gt_row gt_center">
-13
+1
 </td>
+<td class="gt_row gt_center">
+1
+</td>
+<td class="gt_row gt_center">
+Not\_Flooded
+</td>
+<td class="gt_row gt_center">
+Flood\_Susceptible
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+</tr>
+<tr>
 <td class="gt_row gt_center">
 2
 </td>
 <td class="gt_row gt_center">
-Flooded
+1
+</td>
+<td class="gt_row gt_center">
+Not\_Flooded
+</td>
+<td class="gt_row gt_center">
+Dunphy
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_center">
+3
+</td>
+<td class="gt_row gt_center">
+1
+</td>
+<td class="gt_row gt_center">
+Not\_Flooded
 </td>
 <td class="gt_row gt_center">
 Flood\_Tolerant
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_center">
+4
+</td>
+<td class="gt_row gt_center">
+1
+</td>
+<td class="gt_row gt_center">
+Not\_Flooded
+</td>
+<td class="gt_row gt_center">
+Roy
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+<td class="gt_row gt_center">
+NA
+</td>
+</tr>
+<tr>
+<td class="gt_row gt_center">
+5
+</td>
+<td class="gt_row gt_center">
+1
+</td>
+<td class="gt_row gt_center">
+Not\_Flooded
+</td>
+<td class="gt_row gt_center">
+N11-352
 </td>
 <td class="gt_row gt_center">
 NA
@@ -627,11 +769,10 @@ NA
 </div>
 
 <!--/html_preserve-->
-
-Flooded and non-flooded environments will be made using 4 large tubs
-with two tubs flooded, and two tubs non-flooded as each tub can hold 20
-pots.
-
+Once plants have reached the V2 growth stage, (two unfurled trifoliates,
+see the image below), flood the two flood treatment tanks and continue
+watering the two non-flooded tanks as usual. Release flood conditions
+after seven days.  
 <center>
 
 ![Soybean growth
@@ -639,17 +780,19 @@ stages](https://prairiecalifornian.com/wp-content/uploads/2015/07/SoybeanGrowthS
 
 </center>
 
-``` r
-summary(cars)
-```
+Take field visual ratings (see the field book).
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+Take chlorophyll measurements **FIND PROCEDURE**.
+
+After about 2 weeks, or when the V5 stage is reached, collect the shoot
+and root from each pot. Take the wet biomass of shoot and root. **FIND
+PROCEDURE**.
+
+Root architecture measurements?
+
+Dry root and shoot for ten days at 60 degree C.
+
+**Find other variables related to flood tolerance**
 
 ## Including Plots
 

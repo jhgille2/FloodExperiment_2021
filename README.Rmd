@@ -7,6 +7,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 library(targets)
 library(gt)
+library(kableExtra)
+library(dplyr)
 ```
 
 ## Introduction
@@ -25,23 +27,32 @@ Five genotypes will be grown in flodded and non-flooded conditions in 8 replicat
 
 Three seeds from each genotype will be planted for each replication x treatment combination. Thin these plants to one plant per pot after emergence. After plants have been thinned, transfer the pots to their treatment tanks as per the field book. Be sure to follow the plot order when putting them into the tanks as this is randomized and it will make it easier to find a plot if a label floats away or something like that.
 
-Because there are 5 genotypes, and 8 reps of each genotype per treatment, each treatment has 40 plots (pots) in total. Because of this, 
+Because there are 5 genotypes, and 8 reps of each genotype per treatment, each treatment has 40 plots (pots) in total. Pots are numbered 1-40 for each treatment. See the table below to see what this looks like for the first 5 entries for each condition.  
 
 ```{r, echo = FALSE}
-gt(head(tar_read(Fieldbook)$book))
-
+FB_TopTen <- tar_read(Fieldbook)$book %>% group_by(Flood_Condition) %>% top_n(5, 1/Plot) %>% ungroup()
+gt(FB_TopTen)
 ```
 
-Flooded and non-flooded environments will be made using 4 large tubs with two tubs flooded, and two tubs non-flooded as each tub can hold 20 pots. 
-
+Once plants have reached the V2 growth stage, (two unfurled trifoliates, see the image below), flood the two flood treatment tanks and continue watering the two non-flooded tanks as usual. Release flood conditions after seven days.  
 <center>
 
 ![Soybean growth stages](https://prairiecalifornian.com/wp-content/uploads/2015/07/SoybeanGrowthStages-image1.jpg)
 
 </center>
-```{r cars}
-summary(cars)
-```
+
+Take field visual ratings (see the field book).  
+
+Take chlorophyll measurements **FIND PROCEDURE**.  
+
+After about 2 weeks, or when the V5 stage is reached, collect the shoot and root from each pot. Take the wet biomass of shoot and root. **FIND PROCEDURE**.  
+
+Root architecture measurements?  
+
+Dry root and shoot for ten days at 60 degree C. 
+
+**Find other variables related to flood tolerance**
+
 
 ## Including Plots
 

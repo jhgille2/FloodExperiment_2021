@@ -26,7 +26,7 @@ make_FieldBook <- function(Treatments, Genotypes, nReps, seed = 2387445) {
   FieldBook$book$B <- Genotypes[as.numeric(FieldBook$book$B)]
   
   
-  FieldBook$book %>%
+  FieldBook$book %>% group_by(A) %>%
     mutate(plots = 1:n()) %>%
     ungroup() %>%
     rename(Plot            = plots, 

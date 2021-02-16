@@ -31,7 +31,7 @@ Because there are 5 genotypes, and 8 reps of each genotype per treatment, each t
 
 ```{r, echo = FALSE}
 FB_TopTen <- tar_read(Fieldbook)$book %>% group_by(Flood_Condition) %>% top_n(5, 1/Plot) %>% ungroup()
-gt(FB_TopTen)
+FB_TopTen
 ```
 
 Once plants have reached the V2 growth stage, (two unfurled trifoliates, see the image below), flood the two flood treatment tanks and continue watering the two non-flooded tanks as usual. Release flood conditions after seven days.  
@@ -54,12 +54,8 @@ Dry root and shoot for ten days at 60 degree C.
 **Find other variables related to flood tolerance**
 
 
-## Including Plots
+## Data analysis
 
-You can also embed plots, for example:
+The objective of this experiment is to determine if N11-352 possesses flood-tolerance. The purpose of this section will be to define precisely what qualifies as "flood-tolerant" in terms of the variables that are measured in this study. 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

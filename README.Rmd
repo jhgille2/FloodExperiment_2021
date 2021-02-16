@@ -1,0 +1,43 @@
+---
+title: "N11-352 Flood tolerance experiment"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+The goal of this experiment is to test if the **N11-325** soybean genotype possesses flood tolerance. This will be a greenhouse experiment and the general strategy will be to compare the N11-325 genotype to other genotypes which are already known to have or lack flood tolerance to determine if this new genotype possesses, or lacks flood tolerance traits.
+
+## Experimental design
+
+Five genotypes will be grown in in 8 replications each in both flodded and non-flooded conditions. The genotypes are:
+
+  - N11-352
+  - Dunphy
+  - Roy
+  - Flood-Tolerant (From Tommy/Ben/Paul)
+  - Flood-Susceptible (From Tommy/Ben/Paul)
+
+Flooded and non-flooded environments will be made using 4 large tubs with two tubs flooded, and two tubs non-flooded as each tub can hold 20 pots. 
+
+<center>
+
+![Soybean growth stages](https://prairiecalifornian.com/wp-content/uploads/2015/07/SoybeanGrowthStages-image1.jpg)
+
+</center>
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

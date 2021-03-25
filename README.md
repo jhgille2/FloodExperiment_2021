@@ -18,7 +18,7 @@ replications within each environment. The genotypes are:
 -   N11-352
 -   Dunphy
 -   Roy
--   N10-792
+-   Flood-Tolerant (From Tommy/Ben/Paul)
 -   Flood-Susceptible (From Tommy/Ben/Paul)
 
 Three seeds from each genotype will be planted for each replication x
@@ -33,21 +33,21 @@ treatment, each treatment has 40 plots (pots) in total. Pots are
 numbered 1-40 for each treatment. See the table below to see what this
 looks like for the first 5 entries for each condition.
 
-    ## [90m# A tibble: 10 x 11[39m
-    ##     Plot Rep   Flood_Condition Genotype  HT    LOD   Chlorophyl Root_biomass_wet
-    ##    [3m[90m<int>[39m[23m [3m[90m<fct>[39m[23m [3m[90m<fct>[39m[23m           [3m[90m<fct>[39m[23m     [3m[90m<lgl>[39m[23m [3m[90m<lgl>[39m[23m [3m[90m<lgl>[39m[23m      [3m[90m<lgl>[39m[23m           
-    ## [90m 1[39m     1 1     Flooded         Roy       [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m 2[39m     2 1     Flooded         Flood_Su~ [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m 3[39m     3 1     Flooded         Dunphy    [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m 4[39m     4 1     Flooded         Flood_To~ [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m 5[39m     5 1     Flooded         N11-352   [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m 6[39m     1 1     Not_Flooded     Flood_Su~ [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m 7[39m     2 1     Not_Flooded     Dunphy    [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m 8[39m     3 1     Not_Flooded     Flood_To~ [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m 9[39m     4 1     Not_Flooded     Roy       [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m10[39m     5 1     Not_Flooded     N11-352   [31mNA[39m    [31mNA[39m    [31mNA[39m         [31mNA[39m              
-    ## [90m# ... with 3 more variables: Shoot_biomass_wet <lgl>, Root_biomass_dry <lgl>,[39m
-    ## [90m#   Shoot_biomass_dry <lgl>[39m
+    ## # A tibble: 10 x 11
+    ##     Plot Rep   Flood_Condition Genotype HT    LOD   Chlorophyl Root_biomass_wet
+    ##    <int> <fct> <fct>           <fct>    <lgl> <lgl> <lgl>      <lgl>           
+    ##  1     1 1     Flooded         Roy      NA    NA    NA         NA              
+    ##  2     2 1     Flooded         N11-7414 NA    NA    NA         NA              
+    ##  3     3 1     Flooded         Dunphy   NA    NA    NA         NA              
+    ##  4     4 1     Flooded         N10-792  NA    NA    NA         NA              
+    ##  5     5 1     Flooded         N11-352  NA    NA    NA         NA              
+    ##  6     1 1     Not_Flooded     N11-7414 NA    NA    NA         NA              
+    ##  7     2 1     Not_Flooded     Dunphy   NA    NA    NA         NA              
+    ##  8     3 1     Not_Flooded     N10-792  NA    NA    NA         NA              
+    ##  9     4 1     Not_Flooded     Roy      NA    NA    NA         NA              
+    ## 10     5 1     Not_Flooded     N11-352  NA    NA    NA         NA              
+    ## # ... with 3 more variables: Shoot_biomass_wet <lgl>, Root_biomass_dry <lgl>,
+    ## #   Shoot_biomass_dry <lgl>
 
 Once plants have reached the V2 growth stage, (two unfurled trifoliates,
 see the image below), flood the two flood treatment tanks and continue
@@ -76,7 +76,6 @@ Dry root and shoot for ten days at 60 degree C.
 
 ## Data analysis
 
-<<<<<<< HEAD
 The objective of this experiment is to determine if N11-352 possesses
 flood-tolerance. The purpose of this section will be to define precisely
 what qualifies as “flood-tolerant” in terms of the variables that are
@@ -100,6 +99,3 @@ check if the genotype and/or the environmental conditions had a
 significant influence on the variables relevant to flood tolerance.
 Following this check, we can then proceed to check if the performance of
 **N11-325** is at least as good as the drought tolerant variety.
-=======
- - Need to define a quantitative measure for flood tolerance.
->>>>>>> 592e20e749c78c19f675300c5fa7b03ff4b2df88

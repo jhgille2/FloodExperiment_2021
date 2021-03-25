@@ -30,7 +30,7 @@ Three seeds from each genotype will be planted for each replication x treatment 
 Because there are 5 genotypes, and 8 reps of each genotype per treatment, each treatment has 40 plots (pots) in total. Pots are numbered 1-40 for each treatment. See the table below to see what this looks like for the first 5 entries for each condition.  
 
 ```{r, echo = FALSE}
-FB_TopTen <- tar_read(Fieldbook)$book %>% group_by(Flood_Condition) %>% top_n(5, 1/Plot) %>% ungroup()
+FB_TopTen <- tar_read(FieldbookData_Part2)$book %>% group_by(Flood_Condition) %>% top_n(5, 1/Plot) %>% ungroup()
 FB_TopTen
 ```
 

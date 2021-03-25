@@ -32,5 +32,5 @@ Go [here](https://github.com/jhgille2/FloodExperiment_2021/blob/main/doc/SEA%20F
 * Just files used by the targets package for workflow management. 
 
 # doc
-* **SEA FY21 OIR - Employee Acknowledgement...:**The procedure. 
+* **SEA FY21 OIR - Employee Acknowledgement**The procedure. 
 * **analysis.Rmd/html:** An empty analysis writeu p, room to add a writeu p once we get to that part.

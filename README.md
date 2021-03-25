@@ -10,9 +10,8 @@ stages](https://prairiecalifornian.com/wp-content/uploads/2015/07/SoybeanGrowthS
 
 # Overview
 
-Go
-[here](https://github.com/jhgille2/FloodExperiment_2021/blob/main/doc/SEA%20FY21%20OIR%20-%20Employee%20Acknowledgment%20Statement%20%20Approval%20Form_Fallen%20Request%2002-25-2021.pdf)
-for the procedure.
+[Here’s](https://github.com/jhgille2/FloodExperiment_2021/blob/main/doc/SEA%20FY21%20OIR%20-%20Employee%20Acknowledgment%20Statement%20%20Approval%20Form_Fallen%20Request%2002-25-2021.pdf)
+the procedure.
 
 # Data
 
@@ -31,5 +30,5 @@ for the procedure.
 # doc
 
 -   **SEA FY21 OIR - Employee Acknowledgement:** The procedure.
--   **analysis.Rmd/html:** An empty analysis writeu p, room to add a
-    writeu p once we get to that part.
+-   **analysis.Rmd/html:** An empty analysis write up, room to add a
+    write up once we get to that part.

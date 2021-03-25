@@ -76,7 +76,4 @@ Dry root and shoot for ten days at 60 degree C.
 
 ## Data analysis
 
-The objective of this experiment is to determine if N11-352 possesses
-flood-tolerance. The purpose of this section will be to define precisely
-what qualifies as “flood-tolerant” in terms of the variables that are
-measured in this study.
+ - Need to define a quantitative measure for flood tolerance.

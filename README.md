@@ -18,7 +18,7 @@ replications within each environment. The genotypes are:
 -   N11-352
 -   Dunphy
 -   Roy
--   Flood-Tolerant (From Tommy/Ben/Paul)
+-   N10-792
 -   Flood-Susceptible (From Tommy/Ben/Paul)
 
 Three seeds from each genotype will be planted for each replication x
@@ -76,6 +76,7 @@ Dry root and shoot for ten days at 60 degree C.
 
 ## Data analysis
 
+<<<<<<< HEAD
 The objective of this experiment is to determine if N11-352 possesses
 flood-tolerance. The purpose of this section will be to define precisely
 what qualifies as “flood-tolerant” in terms of the variables that are
@@ -99,3 +100,6 @@ check if the genotype and/or the environmental conditions had a
 significant influence on the variables relevant to flood tolerance.
 Following this check, we can then proceed to check if the performance of
 **N11-325** is at least as good as the drought tolerant variety.
+=======
+ - Need to define a quantitative measure for flood tolerance.
+>>>>>>> 592e20e749c78c19f675300c5fa7b03ff4b2df88

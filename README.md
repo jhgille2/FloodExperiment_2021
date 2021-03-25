@@ -75,27 +75,3 @@ Dry root and shoot for ten days at 60 degree C.
 **Find other variables related to flood tolerance**
 
 ## Data analysis
-
-The objective of this experiment is to determine if N11-352 possesses
-flood-tolerance. The purpose of this section will be to define precisely
-what qualifies as “flood-tolerant” in terms of the variables that are
-measured in this study.  
-The most important variables to consider are the biomass variables, both
-wet and dry, although root architecture will provide interesting
-meta-data to consider *why* the genotype may perform as it does. The
-general model for evaluating the performance of a genotype following
-some flood-tolerant relevant variable will be:
-
-*y*<sub>*i**j**k*</sub> = *μ* + *F*<sub>*i*</sub> + *R*(*F*)<sub>*i**j*</sub> + *G*<sub>*k*</sub> + *G**L*<sub>*i**k*</sub> + *ϵ**i**j**k*
-  
-Where *y*<sub>*i**j**k*</sub> is the response variable (ex. wet/dry
-biomass) for some plot, *F*<sub>*i*</sub> is the effect of environment
-*i* (flooded or not flooded), *R*(*F*)<sub>*i**j*</sub> is the effect of
-replication *j* nested within flood treatment *i*, *G*<sub>*k*</sub> is
-the effect of genotype *G*, and *ϵ*<sub>*i*</sub>*j**k* is the residual
-error. Following this model, the significance of the main factors
-(genotype and flood condition) can be validated. In other words, we can
-check if the genotype and/or the environmental conditions had a
-significant influence on the variables relevant to flood tolerance.
-Following this check, we can then proceed to check if the performance of
-**N11-325** is at least as good as the drought tolerant variety.

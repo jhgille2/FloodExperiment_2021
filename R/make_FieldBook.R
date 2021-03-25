@@ -7,7 +7,25 @@
 ##' @param Genotypes
 ##' @param nReps
 ##' @param seed
-make_FieldBook <- function(Treatments, Genotypes, nReps, seed = 2387445) {
+##' 
+##' 
+
+Parameters_Part1 <- list("Treatment" = c("Flooded", "80%", "100%"), 
+                         "Genotypes" = c("N11-352", "Dunphy", "N10-792", "N11-7414"), 
+                         "Reps"      = 8, 
+                         "Phenotypes" = c("HT", 
+                                          "LOD", 
+                                          "Chlorophyl", 
+                                          "Root_biomass_wet", 
+                                          "Shoot_biomass_wet", 
+                                          "Root_biomass_dry", 
+                                          "Shoot_biomass_dry"))
+
+make_FieldBook <- function(ParameterList = Parameters_Part1, seed = 2387445) {
+  
+  Treatments <- ParameterList$Treatment
+  Genotypes  <- ParameterList$Genotype
+  nReps      <- ParameterList$Reps
   
   # Convert treatments, genotypes to factors
   Treatments <- factor(Treatments)
@@ -33,15 +51,9 @@ make_FieldBook <- function(Treatments, Genotypes, nReps, seed = 2387445) {
            Rep             = block, 
            Flood_Condition = A, 
            Genotype        = B) %>%
-    add_column(HT                = NA,
-               LOD               = NA,
-               #SQ            = NA,
-               Chlorophyl        = NA,
-               Root_biomass_wet  = NA,
-               Shoot_biomass_wet = NA,
-               Root_biomass_dry  = NA,
-               Shoot_biomass_dry = NA) %>%
     arrange(Flood_Condition, Rep, Plot) -> FieldBook$book
+  
+  FieldBook$book[, ParameterList$Phenotypes] = NA
   
   FieldBook
 }

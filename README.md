@@ -18,7 +18,7 @@ replications within each environment. The genotypes are:
 -   N11-352
 -   Dunphy
 -   Roy
--   Flood-Tolerant (From Tommy/Ben/Paul)
+-   N10-792
 -   Flood-Susceptible (From Tommy/Ben/Paul)
 
 Three seeds from each genotype will be planted for each replication x

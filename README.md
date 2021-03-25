@@ -30,6 +30,6 @@ for the procedure.
 
 # doc
 
--   **SEA FY21 OIR - Employee Acknowledgement**The procedure.
+-   **SEA FY21 OIR - Employee Acknowledgement:** The procedure.
 -   **analysis.Rmd/html:** An empty analysis writeu p, room to add a
     writeu p once we get to that part.
